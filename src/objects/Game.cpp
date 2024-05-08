@@ -1,7 +1,9 @@
 #include "objects/Game.hpp"
 #include "states/SplashState.hpp"
+
 #include <stdlib.h>
 #include <time.h>
+
 
 namespace flappy
 {

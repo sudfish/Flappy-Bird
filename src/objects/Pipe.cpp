@@ -1,10 +1,12 @@
-#include "objects/Pipe.hpp"
 #include "definitions.hpp"
+#include "objects/Pipe.hpp"
+
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/System/Vector2.hpp>
+
 
 namespace flappy{
     Pipe::Pipe(GameDataRef data) : data(data){

@@ -1,9 +1,12 @@
 #pragma once
 
 #include "objects/Game.hpp"
-#include <vector>
+
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/Sprite.hpp>
+
+#include <vector>
+
 
 namespace flappy {
     class Land {

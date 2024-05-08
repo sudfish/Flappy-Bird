@@ -1,8 +1,10 @@
+#include "definitions.hpp"
 #include "objects/Game.hpp"
 #include "states/SplashState.hpp"
 #include "states/MainMenuState.hpp"
-#include "definitions.hpp"
+
 #include <SFML/Window/Event.hpp>
+
 
 namespace flappy
 {

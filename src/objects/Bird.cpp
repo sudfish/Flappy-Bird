@@ -1,8 +1,10 @@
-#include "objects/Bird.hpp"
 #include "definitions.hpp"
+#include "objects/Bird.hpp"
+
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Transformable.hpp>
+
 
 namespace flappy {
     Bird::Bird(GameDataRef data) : data(data) {

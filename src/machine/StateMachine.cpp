@@ -1,5 +1,6 @@
 #include "machine/StateMachine.hpp"
 
+
 namespace flappy {
     
     void StateMachine::AddState( StateRef new_state, bool is_replacing ){

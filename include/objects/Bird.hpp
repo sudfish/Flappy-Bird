@@ -1,8 +1,10 @@
 #pragma once
 
 #include "objects/Game.hpp"
+
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/Graphics.hpp>
+
 
 namespace flappy
 {

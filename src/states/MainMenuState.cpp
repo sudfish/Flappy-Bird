@@ -1,11 +1,13 @@
-#include "states/MainMenuState.hpp"
 #include "definitions.hpp"
+#include "states/MainMenuState.hpp"
 #include "states/GameState.hpp"
 #include "machine/StateMachine.hpp"
+
 #include <SFML/Audio/SoundBuffer.hpp>
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/Keyboard.hpp>
 #include <SFML/Window/Mouse.hpp>
+
 
 namespace flappy
 {

@@ -1,7 +1,9 @@
-#include "objects/Land.hpp"
 #include "definitions.hpp"
+#include "objects/Land.hpp"
 #include "objects/Game.hpp"
+
 #include <SFML/Graphics/Sprite.hpp>
+
 #include <vector>
 
 

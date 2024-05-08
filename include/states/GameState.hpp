@@ -1,16 +1,17 @@
 #pragma once
 
+#include "objects/Pipe.hpp"
+#include "machine/State.hpp"
+#include "objects/Game.hpp"
+#include "objects/Land.hpp"
+#include "objects/Bird.hpp"
+
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/System/Clock.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
 
-#include "objects/Pipe.hpp"
-#include "machine/State.hpp"
-#include "objects/Game.hpp"
-#include "objects/Land.hpp"
-#include "objects/Bird.hpp"
 
 namespace flappy
 {

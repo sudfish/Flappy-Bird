@@ -1,8 +1,10 @@
 #pragma once
 
 #include "machine/State.hpp"
+
 #include <memory>
 #include <stack>
+
 
 namespace flappy
 {

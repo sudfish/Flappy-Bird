@@ -2,11 +2,13 @@
 
 #include "machine/State.hpp"
 #include "objects/Game.hpp"
+
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Text.hpp>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>
+
 
 namespace flappy
 {

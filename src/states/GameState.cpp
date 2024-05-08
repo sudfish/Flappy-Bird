@@ -1,13 +1,16 @@
+#include "definitions.hpp"
 #include "states/GameOverState.hpp"
 #include "states/GameState.hpp"
-#include "definitions.hpp"
+
 #include <SFML/Audio/Sound.hpp>
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/Text.hpp>
 #include <SFML/System/Sleep.hpp>
 #include <SFML/System/Time.hpp>
 #include <SFML/Window/Keyboard.hpp>
+
 #include <string>
+
 
 namespace flappy
 {

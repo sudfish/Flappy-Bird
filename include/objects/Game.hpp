@@ -3,8 +3,10 @@
 #include "machine/StateMachine.hpp"
 #include "managers/AssetManager.hpp"
 #include "managers/InputManager.hpp"
+
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+
 
 namespace flappy
 {
