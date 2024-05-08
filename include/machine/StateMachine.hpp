@@ -1,16 +1,8 @@
 #pragma once
 
+#include "machine/State.hpp"
 #include <memory>
 #include <stack>
-#include "machine/State.hpp"
-
-/**
- * @brief State manager. 
- *
- * State machine, a queue to manage individual states in game. Each game state
- * can be thought of as having it's own logic, this machine will process the 
- * logic of the current state we are in, while maintaining game data. 
- */
 
 namespace flappy
 {

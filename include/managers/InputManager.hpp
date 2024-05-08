@@ -6,12 +6,6 @@
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Window/Mouse.hpp>
 
-/**
- * @brief Manages user input
- *
- * In charge of reacting to user input, i.e. user clicks a button.
- */
-
 namespace flappy 
 {
     class InputManager{

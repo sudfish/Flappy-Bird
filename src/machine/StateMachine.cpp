@@ -1,17 +1,18 @@
 #include "machine/StateMachine.hpp"
 
-namespace flappy{
-    void StateMachine::AddState(StateRef new_state, bool is_replacing){
+namespace flappy {
+    
+    void StateMachine::AddState( StateRef new_state, bool is_replacing ){
         this->is_adding = true;
         this->is_replacing = is_replacing;
-        this->new_state = std::move(new_state);
+        this->new_state = std::move( new_state );
     }
 
-    void StateMachine::RemoveState(){
+    void StateMachine::RemoveState( ){
         this->is_removing = true;
     }
 
-    void StateMachine::ProcessStateChanges(){
+    void StateMachine::ProcessStateChanges( ){
         if(this->is_removing && !this->states.empty()){
             this->states.pop();
             
