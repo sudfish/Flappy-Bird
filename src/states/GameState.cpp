@@ -9,6 +9,7 @@
 #include <SFML/System/Time.hpp>
 #include <SFML/Window/Keyboard.hpp>
 
+#include <iostream>
 #include <string>
 
 
@@ -106,7 +107,7 @@ namespace flappy
             if(ExistsScoringCollision()){
                 if(!muted) this->score_sound.play();
                 this->data->game_score++;
-                this->speed += 0.05;
+                if(this->speed < 2.7) this->speed += 0.05;
             }
 
             if(ExistsEndingCollision()){
@@ -176,7 +177,8 @@ namespace flappy
     }
 
     void GameState::Pause(){
-       this->paused = !this->paused; 
+       this->paused = !this->paused;
+       this->clock.restart();
     }
 
     void GameState::Mute(){
